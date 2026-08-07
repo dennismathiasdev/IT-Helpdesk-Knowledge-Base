@@ -1,51 +1,43 @@
 # IT Helpdesk Knowledge Base
 
-## 📖 Project Description
+Welcome to my IT Helpdesk Knowledge Base.
 
-This repository contains IT Support documentation and troubleshooting guides for common technical problems encountered in the workplace.
+This repository is a growing collection of professional IT Support documentation that demonstrates my troubleshooting skills, technical knowledge, and ability to document solutions clearly.
 
-The purpose of this project is to improve my troubleshooting, documentation, and customer support skills while building a professional GitHub portfolio.
+## Repository Structure
 
----
+### Windows
+Windows troubleshooting guides and solutions.
 
-## 🎯 Project Objectives
+### Networking
+Network troubleshooting, Wi-Fi, DNS, DHCP, IP configuration, and connectivity issues.
 
-- Learn IT Support best practices.
-- Practice troubleshooting common computer issues.
-- Improve technical documentation skills.
-- Build a professional portfolio for employers.
+### Microsoft365
+Documentation for Outlook, Teams, OneDrive, Exchange Online, and Microsoft 365 support.
 
----
+### PowerShell
+Useful PowerShell commands and automation scripts.
 
-## 🛠 Skills Demonstrated
+### Hardware
+Hardware diagnostics and troubleshooting guides.
 
-- IT Support
-- Technical Documentation
+### Help Desk Tickets
+Examples of common IT support tickets and their resolutions.
+
+### Interview Questions
+IT Support interview questions and model answers.
+
+## Skills Demonstrated
+
+- Windows 10 & Windows 11 Support
+- Technical Troubleshooting
+- Customer Support
+- Networking Fundamentals
+- Documentation
+- Microsoft 365
+- PowerShell
 - Problem Solving
-- Windows Troubleshooting
-- Networking Basics
-- Customer Service
 
 ---
 
-## 📂 Project Files
-
-This repository will gradually include:
-
-- Wi-Fi Troubleshooting Guide
-- Password Reset Guide
-- Printer Troubleshooting Guide
-- VPN Troubleshooting Guide
-- Windows Installation Guide
-- Blue Screen Troubleshooting Guide
-- Office 365 Login Issues
-- Computer Maintenance Checklist
-- Common Help Desk Tickets
-
----
-
-## 🚧 Project Status
-
-This project is currently under development.
-
-New documentation will be added as I continue learning IT Support.
+Created and maintained by Dennis Mathias Franklin.
