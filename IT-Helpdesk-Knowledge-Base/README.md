@@ -28,6 +28,26 @@ The projects are designed to demonstrate how I approach technical problems, inve
 
 ## Featured Projects
 
+## Portfolio Navigation
+
+### Help Desk & Support
+- [Help Desk Tickets](./Help-Desk-Tickets)
+- [Hardware Support](./Hardware)
+- [Interview Questions](./Interview-Questions)
+
+### Windows Support
+- [Windows Troubleshooting](./Windows)
+- [Microsoft 365](./Microsoft365)
+
+### Networking
+- [Networking Projects](./Networking)
+
+### Practical Labs
+- [Troubleshooting Labs](./Labs)
+
+### Evidence
+- [Screenshots](./Screenshots)
+
 ### Help Desk Tickets
 
 Practical support ticket examples covering common user problems.
