@@ -2,76 +2,143 @@
 
 ## Ticket Information
 
+**Category:** Network Connectivity
+
 **Priority:** High
 
-**Category:** Networking
+**Status:** Resolved
+
+**Issue Type:** Internet Access
 
 ---
 
 ## User Report
 
-The user reports that they cannot access any websites from their Windows computer.
+The user reports that their computer is connected to the network but they cannot access websites.
 
 ---
 
-## Troubleshooting Steps
+## Initial Assessment
 
-1. Verified the computer name using:
+The issue may be related to:
 
-```cmd
-hostname
-```
+- Incorrect IP configuration
+- DNS resolution failure
+- Network adapter problems
+- Default gateway connectivity
+- Router or network connectivity
+- Temporary Windows network problems
 
-2. Checked the network configuration using:
+---
 
-```cmd
+## Troubleshooting Process
+
+### Step 1 - Check IP Configuration
+
+Ran:
+
+```text
 ipconfig
 ```
 
-3. Tested internet connectivity using:
+**Result:** A valid IPv4 address, subnet mask, and default gateway were present.
 
-```cmd
-ping google.com
+**Finding:** The computer has a valid network configuration.
+
+---
+
+### Step 2 - Test the Local TCP/IP Stack
+
+Ran:
+
+```text
+ping 127.0.0.1
 ```
 
-4. Checked the network path using:
+**Result:** Successful replies were received.
 
-```cmd
-tracert google.com
+**Finding:** The local TCP/IP stack is functioning correctly.
+
+---
+
+### Step 3 - Test the Default Gateway
+
+Ran:
+
+```text
+ping [Default Gateway]
 ```
 
-5. Verified DNS resolution using:
+**Result:** Successful replies were received.
 
-```cmd
+**Finding:** The computer can communicate with the local network gateway.
+
+---
+
+### Step 4 - Test External Connectivity
+
+Ran:
+
+```text
+ping 8.8.8.8
+```
+
+**Result:** Successful replies were received.
+
+**Finding:** The computer can reach an external IP address.
+
+---
+
+### Step 5 - Test DNS Resolution
+
+Ran:
+
+```text
 nslookup google.com
 ```
 
+**Result:** DNS successfully returned an address for google.com.
+
+**Finding:** DNS resolution is functioning correctly.
 ---
 
-## Findings
+## Diagnostic Conclusion
 
-- Computer identified successfully.
-- Network configuration verified.
-- Internet connectivity tested.
-- Network route examined.
-- DNS resolution confirmed.
+All network connectivity tests completed successfully.
+
+The computer had:
+
+- Valid IP configuration
+- Working TCP/IP
+- Connectivity to the local gateway
+- External IP connectivity
+- Working DNS resolution
+
+No network failure could be reproduced during this troubleshooting session.
+
+If the user were still unable to access a particular website, the next investigation would focus on the browser, proxy configuration, firewall/security software, or the specific website/service.
 
 ---
 
-## Resolution
+## Tools Used
 
-No fault was identified during testing. The user's internet connection was functioning normally after verification. If the issue persists, further investigation into the router, ISP, or firewall configuration would be recommended.
+- Windows Command Prompt
+- `ipconfig`
+- `ping`
+- `nslookup`
 
 ---
 
 ## Skills Demonstrated
 
-- Customer Communication
 - Network Troubleshooting
-- DNS
-- Command Prompt
-- Problem Solving
+- TCP/IP Diagnostics
+- DNS Troubleshooting
+- Command-Line Troubleshooting
+- Root Cause Analysis
+- Technical Documentation
 
 ---
 
-Resolved by Dennis Mathias Franklin
+Completed by Dennis Mathias Franklin
+
